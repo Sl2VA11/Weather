@@ -1,0 +1,137 @@
+.weatherWrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  padding: 10px;
+}
+.mrg{
+  margin-bottom: 15%;
+}
+.weatherMainWrapp {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weatherImgWrapp {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+
+  @media screen and (min-width: 768px){
+    top: -20px;
+  right: 0px;
+  }
+}
+.weatherImg {
+  width: 60px;
+  height: 60px;
+  @media screen and (min-width: 768px) {
+    width: 250px;
+    height: 250px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 300px;
+    height: 300px;
+  }
+}
+.topWeatherDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.cityName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.37;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  @media screen and (min-width: 768px){
+    font-size: 60px;
+  }
+}
+.weatherTemp {
+  position: relative;
+}
+.cityTemp {
+  display: flex;
+
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 0.8;
+  //   text-align: center;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @media screen and (min-width: 768px){
+    font-size: 200px;
+  }
+}
+.celcius {
+  position: absolute;
+  right: -20px;
+  top: -40px;
+  font-weight: 400;
+  font-size: 100px;
+  //   line-height: 0.8;
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.weatherDescription {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+  @media screen and (min-width: 768px){
+    font-size: 33px;
+  line-height: 45px;
+  margin-bottom: 90px;
+  }
+}
+.weatherList {
+  // width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px){
+     width: 80%;
+  }
+}
+.weatherItem {
+  background: rgba(96, 66, 135, 0.15);
+  border-radius: 15px;
+  padding: 3px 10px;
+  @media screen and (min-width: 768px){
+      padding: 6px 20px;
+  }
+}
+.weatherInfo {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @media screen and (min-width: 768px){
+      font-size: 27px;
+  line-height: 37px;
+  }
+}
+
+
+.btnWrapp{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+

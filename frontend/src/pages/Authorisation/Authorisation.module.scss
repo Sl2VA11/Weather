@@ -1,0 +1,60 @@
+.loginPage {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(52, 53, 62, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../image/tom-barrett.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  background-position: center;
+}
+.registerPage {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(52, 53, 62, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../image/noaa-ZVhm6rEKEX8-unsplash.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  background-position: center;
+}
+.loginCard {
+  background-color: #fff;
+  display: flex;
+
+  align-items: center;
+}
+.imageWrapper {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+.img {
+  width: 600px;
+}
+.formWrapp {
+  margin: 0 auto;
+  padding: 20px;
+}
+.form {
+  margin-bottom: 20px;
+}
+
+.toRegisterText {
+  color: rgb(86, 10, 186);
+}
+.textSpan {
+  margin-left: 5px;
+  color: rgb(39, 4, 86);
+}

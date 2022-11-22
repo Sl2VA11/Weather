@@ -1,0 +1,30 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+
+.authMenu {
+  // margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.userNameWrapp{
+  margin-left: auto;
+}
+.userName{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 41px;
+  
+ color: rgb(199, 94, 215);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+    
+    
+  }
+}
