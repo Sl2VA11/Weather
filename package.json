@@ -1,8 +1,8 @@
 {
-  "name": "the-weather",
+  "name": "Weather",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://goitacademy.github.io/the-weather/",
+  "homepage": "https://sl2va11.github.io/Weather/",
   "description": "",
   "main": "index.js",
   "scripts": {
